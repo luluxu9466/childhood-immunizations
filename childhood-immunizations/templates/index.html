@@ -1,39 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Immunizations</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" /> -->
+<!-- <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js" integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q==" crossorigin=""></script> -->
+<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+<!-- <link rel="stylesheet" type="text/css" href="../static/css/agency.css"> -->
+
 </head>
 
 <body>
-    <div class="container">
-        <div class="jumbotron" style="text-align: center">
-            <h1>Facts</h1>
-            <p> </p>
-        </div>
 
-        <div class="row">
-            <div class="col-md-12">
-                <h2>Look at all of the current pet pals!</h2>
-                <div id="plot"></div>
-            </div>
-        </div>
+<nav>
+  <div class="navbar-header">
+    <a class="navbar-brand" href="" style="padding-left:25px">
+      VACCINES ARE YOUR BEST SHOT
+    </a>
+  </div>
+  <div class="collapse navbar-collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="nav-item">
+        <a class="nav-link" href="#information">Common Childhood Diseases</a>
+      </li>
+      <li class="menu">
+        <a target="#_blank" href="https://github.com/hlbarker2/MorbidCuriosity" style="padding-right:20px">
+          <img width="25px" src="../static/images/Octicons-mark-github.svg">
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-        <div class="row">
-            <div class="col-md-12">
-                <h2><a href="/send">Add your pet here!</a></h2>
-            </div>
-        </div>
+<h1>VACCINES ARE YOUR BEST SHOT</h1>
+<p>Herd immunizations for a helthier society</p>
+
+<!-- This section presents the photos and information about Measles, Mumps and Pertusis on the top of the page. 
+  Hover over the picture to see text. -->
+
+<div class="container-fluid" id="information">
+<div class="row">
+  <!-- Measles picture with overlay text -->
+  <div class="col-lg-4">
+    <h2>
+      Measles
+    </h2>
+  <div class="img-container">
+    <img src="../images/measles.jpg" alt="Measles" class = "image" style="width: 33vw; height: 35vw">
+    <div class="overlay" style="width: 33vw;padding: 5px;">
+      <div class="img-text" style="font-size: 1vw; width: 33vw;">
+        <p>
+          <strong>What it is: </strong>
+          Measles is a very contagious disease caused by a virus that is spread through the air when an infected person coughs or sneezes. 
+          It can remain in the air for 2 hours. 
+          Measles is so contagious that if one person has it, up to 90% of the people around them will also become infected if not protected. 
+          Measles starts with a fever followed by coughing, runny nose, red eyes and a rash of tiny, red spots all over the body. 
+        </p>
+        <p>
+          <strong>History: </strong>
+          Officially discovered by Dr. Francis Home in 1757 and nationally notifiable disease in the US in 1912. 
+          Before the vaccination became available, nearly all children got measles by the time they were 15. 
+          Since the vaccination was discovered, it’s use has led to a 99% reduction in measles cases compared to the pre-vaccine era.
+        </p>
+ 
+      </div>
     </div>
+  </div>
+  </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <!-- Mumps picture with overlay text -->
+  <div class="col-lg-4">
+    <h2>
+      Mumps
+    </h2>
+  <div class="img-container">
+    <img src="../images/mumps.jpg" alt="Mumps" class = "image" style="width: 33vw; height: 35vw;"> 
+    <div class="overlay"  style="width: 33vw;padding: 5px;">
+      <div class="img-text" style="font-size: 1vw; width: 33vw;">
+        <p>
+          <strong>What it is: </strong>
+          Mumps is a highly contagious airborne virus and can be spread by an infected person coughing or sneezing and releasing tiny droplets of contaminated saliva that is inhaled by another person. 
+          Symptoms include fever, headache, muscle aches, tiredness and loss of appetite along with swollen salivary glands under the ears, swelling of the brain and spinal cord and can last two or more weeks and may come with long-lasting problems such as permanent hearing loss. 
+        </p>
+        <p>
+          <strong>History: </strong>
+          First documented in the 5th century BC, it was formally documented in 1934 by Johnson and Goodpasture. 
+          In 1967, the FDA licensed the Mumpsvax, a vaccine developed by Maurice Hilleman created from the mumps virus infecting his five-year old daughter. 
+          The vaccine is still used to prevent the spread of mumps today. 
+        </p>
+        
+      </div>
+    </div>
+  </div>
+  </div>
 
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  <!-- Pertusis picture with overlay text -->
+  <div class="col-lg-4">
+    <h2>
+      Pertussis
+    </h2>
+    <div class="img-container">
+      <img src="../images/pertussis.jpg" alt="Perssusis" class = "image" style="text-align: left; width: 33vw; height: 35vw;"> 
+      <div class="overlay"  style="width: 33vw; padding: 5px">
+        <div class="img-text" style="width: 33vw">
+
+          <p>
+            <strong>What it is: </strong>
+            More commonly known as the “whooping cough”, pertussis is a highly contagious respiratory disease caused by the bacterium Bordetella pertussis causing uncontrollable violent coughing, vomiting, and apnea making it hard to breathe. 
+            Recovery is possible but slow and can return with other respiratory infections for many months after the pertussis infection started. 
+          </p>
+          <p>
+            <strong>History: </strong>
+            Outbreaks of pertussis were noted and first described and recorded in the 16th century. 
+            In the 20th century, pertussis was one of the most common childhood diseases causing childhood mortality in the US with over 200,000 cases reported and estimated 195,000 deaths worldwide in 2008.
+            Vaccination used in the US was introduced in 1948 as DTaP for pediatric use and Tdap for adolescents and adults.   
+
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  
+<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1o93EpABuvx1V2QoUKt09WFw8hL9Ost4LjdvvL64uq7I&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+
+<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1eNhoJ_e4gLj1DG0TOqHE2MJ_PHlzDYB0uUzSMzZC13U&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 </body>
-
 </html>
