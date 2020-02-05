@@ -1,1 +1,1 @@
-FLASK_APP=childhood-immunizations/app.py flask run
+FLASK_APP=childhood_immunizations/app.py flask run
