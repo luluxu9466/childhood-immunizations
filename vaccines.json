@@ -1,0 +1,404 @@
+{
+  "vaccine": [
+  {
+    "State": "AL",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "3-19",
+    "Pertussis cases (2018)": 219,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "AK",
+    "Measles cases (2019)": 1,
+    "Mumps cases (2019)": "1-2",
+    "Pertussis cases (2018)": 92,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "AZ",
+    "Measles cases (2019)": 1,
+    "Mumps cases (2019)": "100-299",
+    "Pertussis cases (2018)": 239,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "AR",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "20-49",
+    "Pertussis cases (2018)": 99,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "CA",
+    "Measles cases (2019)": 68,
+    "Mumps cases (2019)": "100-299",
+    "Pertussis cases (2018)": 2315,
+    "Religious Exemption": "No",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "CO",
+    "Measles cases (2019)": 1,
+    "Mumps cases (2019)": "50-99",
+    "Pertussis cases (2018)": 614,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "CT",
+    "Measles cases (2019)": 3,
+    "Mumps cases (2019)": "3-19",
+    "Pertussis cases (2018)": 43,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "DE",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "1-2",
+    "Pertussis cases (2018)": 190,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "FL",
+    "Measles cases (2019)": 3,
+    "Mumps cases (2019)": "100-299",
+    "Pertussis cases (2018)": 14,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "GA",
+    "Measles cases (2019)": 7,
+    "Mumps cases (2019)": "1-2",
+    "Pertussis cases (2018)": 326,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "HI",
+    "Measles cases (2019)": 1,
+    "Mumps cases (2019)": "1-2",
+    "Pertussis cases (2018)": 195,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "ID",
+    "Measles cases (2019)": 2,
+    "Mumps cases (2019)": "1-2",
+    "Pertussis cases (2018)": 33,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "IL",
+    "Measles cases (2019)": 9,
+    "Mumps cases (2019)": "50-99",
+    "Pertussis cases (2018)": 396,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "IN",
+    "Measles cases (2019)": 1,
+    "Mumps cases (2019)": "50-99",
+    "Pertussis cases (2018)": 370,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "IA",
+    "Measles cases (2019)": 2,
+    "Mumps cases (2019)": "3-19",
+    "Pertussis cases (2018)": 184,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "KS",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "3-19",
+    "Pertussis cases (2018)": 162,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "KY",
+    "Measles cases (2019)": 2,
+    "Mumps cases (2019)": "3-19",
+    "Pertussis cases (2018)": 198,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "LA",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "100-299",
+    "Pertussis cases (2018)": 125,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "ME",
+    "Measles cases (2019)": 1,
+    "Mumps cases (2019)": "3-19",
+    "Pertussis cases (2018)": 446,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "MD",
+    "Measles cases (2019)": 5,
+    "Mumps cases (2019)": "3-19",
+    "Pertussis cases (2018)": 119,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "MA",
+    "Measles cases (2019)": 2,
+    "Mumps cases (2019)": "50-99",
+    "Pertussis cases (2018)": 266,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "MI",
+    "Measles cases (2019)": 46,
+    "Mumps cases (2019)": "20-49",
+    "Pertussis cases (2018)": 646,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "MN",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "3-19",
+    "Pertussis cases (2018)": 397,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "MS",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "20-49",
+    "Pertussis cases (2018)": 43,
+    "Religious Exemption": "No",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "MO",
+    "Measles cases (2019)": 1,
+    "Mumps cases (2019)": "100-299",
+    "Pertussis cases (2018)": 170,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "MT",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "3-19",
+    "Pertussis cases (2018)": 143,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "NE",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "50-99",
+    "Pertussis cases (2018)": 161,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "NV",
+    "Measles cases (2019)": 1,
+    "Mumps cases (2019)": "1-2",
+    "Pertussis cases (2018)": 86,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "NH",
+    "Measles cases (2019)": 1,
+    "Mumps cases (2019)": "0",
+    "Pertussis cases (2018)": 137,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "NJ",
+    "Measles cases (2019)": 18,
+    "Mumps cases (2019)": "50-99",
+    "Pertussis cases (2018)": 275,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "NM",
+    "Measles cases (2019)": 1,
+    "Mumps cases (2019)": "20-49",
+    "Pertussis cases (2018)": 242,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "NY",
+    "Measles cases (2019)": 914,
+    "Mumps cases (2019)": "100-299",
+    "Pertussis cases (2018)": 373,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "NC",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "50-99",
+    "Pertussis cases (2018)": 185,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "ND",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "3-19",
+    "Pertussis cases (2018)": 389,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "OH",
+    "Measles cases (2019)": 1,
+    "Mumps cases (2019)": "50-99",
+    "Pertussis cases (2018)": 637,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "OK",
+    "Measles cases (2019)": 4,
+    "Mumps cases (2019)": "3-19",
+    "Pertussis cases (2018)": 103,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "OR",
+    "Measles cases (2019)": 24,
+    "Mumps cases (2019)": "20-49",
+    "Pertussis cases (2018)": 499,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "PA",
+    "Measles cases (2019)": 16,
+    "Mumps cases (2019)": "300+",
+    "Pertussis cases (2018)": 462,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "RI",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "3-19",
+    "Pertussis cases (2018)": 34,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "SC",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "100-299",
+    "Pertussis cases (2018)": 198,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "SD",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "3-19",
+    "Pertussis cases (2018)": 163,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "TN",
+    "Measles cases (2019)": 5,
+    "Mumps cases (2019)": "20-49",
+    "Pertussis cases (2018)": 123,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "TX",
+    "Measles cases (2019)": 21,
+    "Mumps cases (2019)": "300+",
+    "Pertussis cases (2018)": 1167,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "UT",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "20-49",
+    "Pertussis cases (2018)": 432,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "VT",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "1-2",
+    "Pertussis cases (2018)": 34,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "VA",
+    "Measles cases (2019)": 1,
+    "Mumps cases (2019)": "50-99",
+    "Pertussis cases (2018)": 245,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "WA",
+    "Measles cases (2019)": 86,
+    "Mumps cases (2019)": "20-49",
+    "Pertussis cases (2018)": 627,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "WV",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "1-2",
+    "Pertussis cases (2018)": 27,
+    "Religious Exemption": "No",
+    "Philosophical Exemption": "No"
+  },
+  {
+    "State": "WI",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "20-49",
+    "Pertussis cases (2018)": 700,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "Yes"
+  },
+  {
+    "State": "WY",
+    "Measles cases (2019)": 0,
+    "Mumps cases (2019)": "0",
+    "Pertussis cases (2018)": 62,
+    "Religious Exemption": "Yes",
+    "Philosophical Exemption": "No"
+  }
+  ]
+}
