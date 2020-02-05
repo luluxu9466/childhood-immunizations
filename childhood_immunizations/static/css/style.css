@@ -280,7 +280,7 @@ body {
  
  /* Style the navbar */
  #navbar {
-   background-color: white;
+   background-color: blue;
    border-bottom: 1px;
    margin-bottom: 0px;
    position: fixed; /* Set the navbar to fixed position */
@@ -295,9 +295,9 @@ body {
    text-align: center;
    padding: 14px;
    text-decoration: none;
-   font-family: 'Arial, sans-serif;
+   font-family: 'Arial', sans-serif;
    font-size: 16px;
-   color: rgb(21, 124, 21);
+   color: red;
  }
  
  #radar {
