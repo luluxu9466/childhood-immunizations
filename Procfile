@@ -1,1 +1,1 @@
-web: gunicorn childhood-immunizations.app:app
+web: gunicorn childhood_immunizations.app:app

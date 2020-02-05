@@ -23,7 +23,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///db.sqlite"
 
 db = SQLAlchemy(app)
 
-from .models import Pet
+from .models import Immunization
 
 # create route that renders index.html template
 @app.route("/")

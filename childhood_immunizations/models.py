@@ -10,4 +10,4 @@ class Immunization(db.Model):
     lon = db.Column(db.Float)
 
     def __repr__(self):
-        return '<Pet %r>' % (self.name)
+        return '<Immunization %r>' % (self.name)
