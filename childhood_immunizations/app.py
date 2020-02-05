@@ -8,6 +8,7 @@ from flask import (
     jsonify,
     request,
     redirect)
+from flask_sqlalchemy import SQLAlchemy
 
 #################################################
 # Flask Setup
@@ -17,11 +18,13 @@ app = Flask(__name__)
 #################################################
 # Database Setup
 #################################################
-
-from flask_sqlalchemy import SQLAlchemy
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('SQLALCHEMY_DATABASE_URI')
-
+app.config.from_object(os.environ['APP_SETTINGS'])
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
+
+# app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('SQLALCHEMY_DATABASE_URI')
+
+# db = SQLAlchemy(app)
 
 from .models import Measles
 
