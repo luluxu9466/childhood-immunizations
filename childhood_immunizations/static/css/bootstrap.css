@@ -12,7 +12,7 @@ font-family: 'Roboto Mono', monospace;
  Tag Data
  ====================================== */
  
-body {
+ body {
     height: 100%;
     padding: 0;
     margin: 0;
@@ -23,7 +23,7 @@ body {
      font-family: 'Arial', serif;
      font-weight: bold;
      font-size: 50px;
-     color: snow;
+     color: white;
  }
  
  h2 {
@@ -31,14 +31,14 @@ body {
      /* font-size: 30px; */
      /* text-align: center; */
      font-weight: bold;
-     color: snow;
+     color: blue;
  }
  
  h3 {
      font-family: 'Arial', sans-serif;
      font-size: 20px;
      text-align: center;
-     color: snow;
+     color: blue;
      line-height: 1.75em;
  }
  
@@ -64,6 +64,40 @@ body {
      font-size: 16px;
      text-align: left;
      color: rgb(34, 33, 33);
+     display: block;
+     margin: 10px;
+     line-height: 2em;
+ }
+ 
+ button {
+     height: 40px; 
+     width: 150px; 
+     display: block; 
+     margin: 0 auto;
+     color: rgb(31, 30, 30) !important;
+     font-family: 'Arial', sans-serif;
+     font-size: 18px;
+     text-align: center;
+     font-weight: bold;
+ }
+ 
+ /* ======================================
+  Class Data
+  ====================================== */
+ 
+ .team-name {
+     font-family: 'Arial', monospace !important;
+     font-size: 24px;
+     font-weight: bold;
+     color: rgb(235, 45, 31) !important;
+ }
+ 
+ .comment {
+     font-family: 'Arial', sans-serif !important;
+     font-size: 16px;
+     font-style: italic !important;
+     text-align: center !important;
+     color: rgb(65, 63, 63);
      display: block;
      margin: 10px;
      line-height: 2em;
@@ -132,6 +166,14 @@ body {
  .hero > .inner {
      position: relative;
      z-index: 2;
+ }
+ 
+ .h3-white {
+     font-family: 'Arial', sans-serif;
+     font-size: 20px;
+     text-align: center;
+     color: whitesmoke;
+     padding:30px;
  }
  
  .whitespace {
@@ -236,28 +278,28 @@ body {
   ID Data
   ====================================== */
  
-/* Style the navbar */
-#navbar {
-    background-color: blue;
-    border-bottom: 1px;
-    margin-bottom: 0px;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    }
-  
-/* Navbar links */
-#navbar a {
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    font-family: 'Arial', sans-serif;
-    font-size: 16px;
-    color: red;
-    }
-
+ /* Style the navbar */
+ #navbar {
+   background-color: blue;
+   border-bottom: 1px;
+   margin-bottom: 0px;
+   position: fixed; /* Set the navbar to fixed position */
+   top: 0; /* Position the navbar at the top of the page */
+   width: 100%; /* Full width */
+ }
+ 
+ /* Navbar links */
+ #navbar a {
+   float: left;
+   display: block;
+   text-align: center;
+   padding: 14px;
+   text-decoration: none;
+   font-family: 'Arial', sans-serif;
+   font-size: 16px;
+   color: red;
+ }
+ 
  #radar {
      background-color: rgba(255, 255, 255, .5);
      padding: 30px;
@@ -403,6 +445,64 @@ body {
      flex: 1 0 300px;
  }
  
+ /* 
+ ######################
+ Info box under gauges 
+ ###################### 
+ */
+ .info-box {
+     padding: 15px;
+     margin: 8px;
+     background-color: #8d8e913b;
+     font-family: 'Arial', sans-serif;
+     text-align: center;
+     font-size: 16px;
+     color: rgb(34, 33, 33);
+     display: block;
+     line-height: 1.5em;
+ }
+ 
+
+/* Styling for hover image */
+.img-container {
+    position: relative;
+    width: 33%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(235, 235, 240, .9);
+}
+
+.img-container:hover .overlay {
+    opacity: 1;
+}
+
+.img-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1vw; 
+}
 
 .mapael .map {
     position: relative;
@@ -421,3 +521,49 @@ body {
     display: none;
     color: #343434;
   }
+
+/* 
+.dropbtn {
+background-color: #3498DB;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+/* stylin' */
