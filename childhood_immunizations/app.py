@@ -60,6 +60,26 @@ def home():
 def maps():
     return render_template("maps.html")
 
+@app.route("/Mumps")
+def mumps():
+    return render_template("mumps.html")
+
+@app.route("/Measles")
+def measles():
+    return render_template("measles.html")
+
+@app.route("/Pertussis")
+def pertussis():
+    return render_template("pertussis.html")
+
+@app.route("/PhilosophicalExemptions")
+def philosophical():
+    return render_template("philosophical.html")
+
+@app.route("/ReligousExemptions")
+def religious():
+    return render_template("religious.html")
+
 if __name__ == "__main__":
     app.run()
 
