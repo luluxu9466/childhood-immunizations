@@ -23,7 +23,7 @@ body {
      font-family: 'Arial', serif;
      font-weight: bold;
      font-size: 50px;
-     color: white;
+     color: snow;
  }
  
  h2 {
@@ -31,14 +31,14 @@ body {
      /* font-size: 30px; */
      /* text-align: center; */
      font-weight: bold;
-     color: blue;
+     color: snow;
  }
  
  h3 {
      font-family: 'Arial', sans-serif;
      font-size: 20px;
      text-align: center;
-     color: blue;
+     color: snow;
      line-height: 1.75em;
  }
  
