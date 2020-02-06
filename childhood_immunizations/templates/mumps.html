@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Mumps</title>
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
@@ -13,8 +14,6 @@
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
 
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css">
 
 </head>
@@ -43,19 +42,18 @@
 
   <div class="container" >
     <h2 style="color: snow;">SHOTS SHOTS SHOTS!</h2>
+    <p>Select a map: Mumps</p>
   <div id="label"></div>
   <select id="mySelect" onchange="location = this.options[this.selectedIndex].value">
-      <option value="">Select a map:</option>
-      <option value="Mumps" >
-        <a href="Mumps">Mumps</a>
-      </option>
-      <option value="Measles" >Measles</option>
-      <option value="Pertussis" >Pertussis</option>
-      <option value="ReligiousExemptions" >Religious Exemptions</option>
-      <option value="PhilosophicalExemptions" >Philosophical Exemptions</option>
-    </div>
+    <option value="Mumps" ></option>
+    <option value="Measles" >Measles</option>
+    <option value="Pertussis" >Pertussis</option>
+    <option value="ReligiousExemptions" >Religious Exemptions</option>
+    <option value="PhilosophicalExemptions" >Philosophical Exemptions</option>
   </select>
-  
+</div>
+
+
 <!--Mumps-->
 <div class="container">
 
