@@ -76,7 +76,7 @@ def pertussis():
 def philosophical():
     return render_template("philosophical.html")
 
-@app.route("/ReligousExemptions")
+@app.route("/ReligiousExemptions")
 def religious():
     return render_template("religious.html")
 

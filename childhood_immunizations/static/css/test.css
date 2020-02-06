@@ -1,0 +1,338 @@
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(235, 235, 240, .9);
+ }
+ 
+ h1 {
+     font-family: 'Arial', serif;
+     font-weight: bold;
+     font-size: 50px;
+     color: snow;
+ }
+ 
+ h2 {
+     font-family: 'Arial', monospace;
+     /* font-size: 30px; */
+     /* text-align: center; */
+     font-weight: bold;
+     color: snow;
+ }
+ 
+ h3 {
+     font-family: 'Arial', sans-serif;
+     font-size: 20px;
+     text-align: center;
+     color: snow;
+     line-height: 1.75em;
+ }
+ 
+ h4 {
+     font-family: 'Arial', monospace;
+     font-size: 20px;
+     text-align: center;
+     font-weight: bold;
+     color: rgb(235, 45, 31);
+ }
+ 
+ h5 {
+     font-family: 'Arial', sans-serif;
+     font-size: 45px;
+     text-align: center;
+     font-weight: bold;
+     color: rgb(72, 209, 204);
+     padding: 25px
+ }
+ 
+ p {
+     font-family: 'Arial', sans-serif;
+     font-size: 16px;
+     text-align: left;
+     color: rgb(34, 33, 33);
+     display: block;
+     margin: 10px;
+     line-height: 2em;
+ }
+ 
+ button {
+     height: 40px; 
+     width: 150px; 
+     display: block; 
+     margin: 0 auto;
+     color: rgb(31, 30, 30) !important;
+     font-family: 'Arial', sans-serif;
+     font-size: 18px;
+     text-align: center;
+     font-weight: bold;
+ }
+
+
+ /* overlay an opaque dark color so the text will still show up */
+ .hero {
+    font-family: 'Arial', sans-serif;
+    background-image: url("../images/markus-spiske-518966-unsplash.jpg");
+    background-size: cover;
+    min-height: 500px;
+    font-size: 50px;
+    color: whitesmoke;
+    margin: 0px;
+    position: relative;
+}
+
+.hero > .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(8, 9, 58, 0.8);
+    z-index: 1;
+}
+
+.hero > .inner {
+    position: relative;
+    z-index: 2;
+}
+
+ .jumbotron {
+    font-family: 'Arial', sans-serif;
+    font-size: 50px;
+    color: whitesmoke;
+    min-height: 350px;
+    margin: 0px;
+    position: relative;
+}
+
+.jumbotron > .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(8, 9, 58, 0.5);
+    z-index: 1;
+}
+
+.jumbotron > .inner {
+    position: relative;
+    /* z-index: 2; */
+}
+
+#showMe{
+    display:none;
+}
+
+.legend {
+    padding: 6px 8px;
+    font: 12px 'Arial', sans-serif;
+    font-weight: bold;
+    color: #555;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+  
+.legend ul {
+    padding: 0;
+    margin: 0;
+    clear: both;
+    list-style-type: none;
+}
+  
+.legend li {
+    display: inline-block;
+    width: 24px;
+    height: 22px;
+}
+  
+.legend .min {
+    float: left;
+    padding-bottom: 5px;
+}
+  
+.legend .max {
+    float: right;
+}
+
+.legend p {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(34, 33, 33);
+    margin: 2px;
+}
+
+#PopSlider .slider-selection {
+    background: #fdba9f;
+}
+
+#PopSlider .slider-handle {
+    background: #eb2d1f;
+}
+
+#SpendSlider .slider-selection {
+    background: #fdba9f;
+}
+
+#SpendSlider .slider-handle {
+    background: #eb2d1f;
+}
+
+/* ======================================
+ Tooltips
+ ====================================== */
+
+a.tooltip {outline:none; }
+a.tooltip strong {line-height:30px;}
+a.tooltip:hover {text-decoration:none;} 
+a.tooltip span {
+    z-index:10;display:none; padding:14px 20px;
+    margin-top:60px; margin-left:-160px;
+    width:300px; line-height:16px;
+}
+a.tooltip:hover span{
+    display:inline; position:absolute; 
+    border:2px solid #FFF;  color:#EEE;
+    background:rgb(83, 248, 243) url(http://www.menucool.com/tooltip/cssttp/css-tooltip-gradient-bg.png) repeat-x 0 0;
+}
+
+.callout {z-index:20;position:absolute;border:0;top:-14px;left:120px;}
+    
+/*CSS3 extras*/
+a.tooltip span
+{
+    border-radius:2px;        
+    box-shadow: 0px 0px 8px 4px #666;
+    /*opacity: 0.8;*/
+}
+
+/* 
+######################
+    Fancy gauges 
+###################### 
+*/
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 380px;
+}
+
+.box {
+    width: 100%;
+}
+
+.gauge {
+    width: 100%;
+    height: 240px;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexbox>div {
+    flex: 1 0 300px;
+}
+
+/* Styling for hover image */
+.img-container {
+    position: relative;
+    width: 33%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(235, 235, 240, .9);
+}
+
+.img-container:hover .overlay {
+    opacity: 1;
+}
+
+.img-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1vw; 
+}
+
+
+.mapael .map {
+    position: relative;
+  }
+
+.mapael .mapTooltip {
+    position: absolute;
+    background-color: #fff;
+    -moz-opacity: 0.70;
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1000;
+    max-width: 200px;
+    display: none;
+    color: #343434;
+  }
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

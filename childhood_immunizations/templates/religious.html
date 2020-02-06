@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-
 <head>
   <meta charset="utf-8">
-  <title>Religious Exemptions</title>
+  <title>Religious</title>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js" charset="utf-8"></script>
@@ -21,21 +20,38 @@
 </head>
 
 <body style="background-color: skyblue;">
-  <div class="container">
-
-    <div class="mapcontainer">
-      <div class="map">
-        <span>Alternative content for the map</span>
-      </div>
-      <div class="areaLegend">
-        <span>Alternative content for the legend</span>
-      </div>
+  <nav>
+    <div class="navbar-header" >
+      <a class="navbar-brand" href="http://childhood-immunizations.herokuapp.com/" style="padding-left:25px; ">
+        VACCINES ARE YOUR BEST SHOT
+      </a>
     </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+          <a class="nav-link" href="maps">SHOTS SHOTS SHOTS! (Maps)</a>
+        </li>
+        <li class="menu">
+          <a target="#_blank" href="https://github.com/luluxu9466/childhood-immunizations" style="padding-right:20px">
+            <img width="25px" src="../static/images/github.svg">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
+<!--Religious Exemptions-->
+<div class="container">
+
+  <div class="recontainer">
+    <div class="map">
+      <span>Alternative content for the map</span>
+    </div>
+    <div class="areaLegend">
+      <span>Alternative content for the legend</span>
+    </div>
   </div>
-  <script src="../static/js/religiousData.js"></script>
-  
 
+</div>
+<script src="../static/js/religiousData.js"></script>
 </body>
-
-</html>
