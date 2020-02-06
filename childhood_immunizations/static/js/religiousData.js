@@ -1,6 +1,6 @@
 var buffer = {};
 
-d3.json("../vaccines.json")
+d3.json("/static/js/vaccines.json")
     .then(
         d => {
             Object.entries(d.vaccine).forEach(e => {

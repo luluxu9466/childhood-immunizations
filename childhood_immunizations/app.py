@@ -22,13 +22,31 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('SQLALCHEMY_DATABASE_URI')
 db = SQLAlchemy(app)
 
-class Measles(db.Model):
-    __tablename__ = 'Measles Data'
+# class Measles_data(db.Model):
+#     __tablename__ = 'Measles_data'
+
+#     id = db.Column(db.Integer, primary_key=True)
+#     State = db.Column(db.String(15))
+#     Count = db.Column(db.Integer)
+
+
+class Vaccines(db.Model):
+    __tablename__ = 'Vaccines'
 
     id = db.Column(db.Integer, primary_key=True)
-    States = db.Column(db.String(15))
-    Counts = db.Column(db.Integer)
+    State = db.Column(db.String(15))
+    Measles_cases_2019 = db.Column(db.Integer)
+    Mumps_cases_2019 = db.Column(db.String)
+    Pertussis_cases_2018 = db.Column(db.Integer)
+    Religious_Exemption = db.Column(db.String(10))
+    Philosophical_Exemption = db.Column(db.String(10))
 
+# class Measles_24months_2016(db.Model):
+#     __tablename__ = 'Measles_24months_2016'
+
+#     id =  db.Column(db.Integer, primary_key=True)
+#     State = db.Column(db.String(20))
+#     _2016 = db.Column(db.Float(3,1))
 
 # create route that renders index.html template
 @app.route("/")
@@ -37,9 +55,6 @@ def home():
 
 
 # Query the database and send the jsonified results
-@app.route("/data")
-def data():
-    data = db.session.query(Measles.States, Measles.Counts).all()
 
 @app.route("/maps")
 def maps():
@@ -47,3 +62,11 @@ def maps():
 
 if __name__ == "__main__":
     app.run()
+
+@app.route("/vaccines")
+def vaccines():
+    cases = db.session.query(Vaccines.State, Vaccines.Count, Vaccines.Measles_cases_2019, Vaccines.Mumps_cases_2019, \
+        Vaccines.Pertussis_cases_2018, Vaccines.Religious_Exemption, Vaccines.Philosophical_Exemption)\
+            .all()
+    print(jsonify(cases))
+    # return jsonify(cases)
