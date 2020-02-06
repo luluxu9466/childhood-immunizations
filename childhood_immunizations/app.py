@@ -19,13 +19,16 @@ app = Flask(__name__)
 # Database Setup
 #################################################
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('SQLALCHEMY_DATABASE_URI')
 db = SQLAlchemy(app)
 
-# app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('SQLALCHEMY_DATABASE_URI')
+class Measles(db.Model):
+    __tablename__ = 'Measles Data'
 
-# db = SQLAlchemy(app)
+    id = db.Column(db.Integer, primary_key=True)
+    States = db.Column(db.String(15))
+    Counts = db.Column(db.Integer)
 
-from .models import Measles
 
 # create route that renders index.html template
 @app.route("/")
@@ -36,13 +39,11 @@ def home():
 # Query the database and send the jsonified results
 @app.route("/data")
 def data():
-    sel = [Measles.States, Measles.Counts]
-    results = db.session.query(*sel).\
-        group_by(Measles.States).all()
-    df = pd.DataFrame(results, columns=['States', 'Counts'])
-    return jsonify(df.to_dict(orient="records"))
+    data = db.session.query(Measles.States, Measles.Counts).all()
 
-
+@app.route("/maps")
+def maps():
+    return render_template("maps.html")
 
 if __name__ == "__main__":
     app.run()
