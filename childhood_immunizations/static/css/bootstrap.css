@@ -280,12 +280,12 @@ ID Data
 
 /* Style the navbar */
 #navbar {
- background-color: blue;
- border-bottom: 1px;
- margin-bottom: 0px;
- position: fixed; /* Set the navbar to fixed position */
- top: 0; /* Position the navbar at the top of the page */
- width: 100%; /* Full width */
+  background-color: #333;
+  border-bottom: 1px;
+  margin-bottom: 0px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 /* Navbar links */
