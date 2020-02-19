@@ -24,6 +24,7 @@ body {
      font-weight: bold;
      font-size: 50px;
      color: snow;
+     text-shadow: 2px 2px black;
  }
  
  h2 {
