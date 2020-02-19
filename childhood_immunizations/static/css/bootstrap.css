@@ -10,7 +10,7 @@
      font-weight: bold;
      font-size: 50px;
      color: snow;
-     text-shadow: 2px 2px grey;
+     text-shadow: 2px 2px black;
  }
  
  h2 {
@@ -19,6 +19,7 @@
      /* text-align: center; */
      font-weight: bold;
      color: snow;
+     text-shadow: 2px 2px black;
  }
  
  h3 {
@@ -27,6 +28,7 @@
      text-align: center;
      color: snow;
      line-height: 1.75em;
+     text-shadow: 2px 2px black;
  }
  
  h4 {
@@ -35,6 +37,7 @@
      text-align: center;
      font-weight: bold;
      color: rgb(235, 45, 31);
+     text-shadow: 2px 2px black;
  }
  
  h5 {
@@ -43,7 +46,8 @@
      text-align: center;
      font-weight: bold;
      color: rgb(72, 209, 204);
-     padding: 25px
+     padding: 25px;
+     text-shadow: 2px 2px black;
  }
  
  p {
@@ -54,6 +58,7 @@
      display: block;
      margin: 10px;
      line-height: 2em;
+     text-shadow: 2px 2px black;
  }
  
  button {
