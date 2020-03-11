@@ -22,14 +22,6 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('SQLALCHEMY_DATABASE_URI')
 db = SQLAlchemy(app)
 
-# class Measles_data(db.Model):
-#     __tablename__ = 'Measles_data'
-
-#     id = db.Column(db.Integer, primary_key=True)
-#     State = db.Column(db.String(15))
-#     Count = db.Column(db.Integer)
-
-
 class Vaccines(db.Model):
     __tablename__ = 'Vaccines'
 
@@ -41,13 +33,6 @@ class Vaccines(db.Model):
     Religious_Exemption = db.Column(db.String(10))
     Philosophical_Exemption = db.Column(db.String(10))
 
-# class Measles_24months_2016(db.Model):
-#     __tablename__ = 'Measles_24months_2016'
-
-#     id =  db.Column(db.Integer, primary_key=True)
-#     State = db.Column(db.String(20))
-#     _2016 = db.Column(db.Float(3,1))
-
 # create route that renders index.html template
 @app.route("/")
 def home():
@@ -55,7 +40,6 @@ def home():
 
 
 # Query the database and send the jsonified results
-
 @app.route("/maps")
 def maps():
     return render_template("maps.html")
