@@ -108,9 +108,9 @@
 }
 
 .VivaTimeline dl dd .events .events-body .events-desc {
-    text-indent: 2em;
     padding: 0 15px;
-    font-size: 2px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .VivaTimeline dl dd .events .events-footer {
@@ -165,6 +165,7 @@
 .VivaTimeline .carousel-indicators{
     bottom: 0;
 }
+
 
 @media screen and (max-width: 767px) {
     .VivaTimeline dl:before {

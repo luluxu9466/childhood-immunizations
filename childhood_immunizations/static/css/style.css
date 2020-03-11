@@ -86,29 +86,7 @@ body {
  /* ======================================
   Class Data
   ====================================== */
-/*  
- .team-name {
-     font-family: 'Arial', monospace !important;
-     font-size: 24px;
-     font-weight: bold;
-     color: rgb(235, 45, 31) !important;
- }
- 
- .comment {
-     font-family: 'Arial', sans-serif !important;
-     font-size: 16px;
-     font-style: italic !important;
-     text-align: center !important;
-     color: rgb(65, 63, 63);
-     display: block;
-     margin: 10px;
-     line-height: 2em;
- } */
- 
  .button {
-     background-color: rgb(194, 194, 194); 
-     border: none;
-     color: rgb(31, 30, 30) !important;
      font-family: 'Arial', sans-serif !important;
      font-size: 16px;
      padding: 15px 32px;
@@ -275,10 +253,7 @@ body {
      color: whitesmoke;
  }
  
- 
- /* ======================================
-  ID Data
-  ====================================== */
+
  
  /* Style the navbar */
  #navbar {
