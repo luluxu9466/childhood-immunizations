@@ -24,7 +24,7 @@
     width: 120px;
     padding: 3px 5px;
     margin: 0 auto 30px;
-    font-weight: 400;
+    font-weight: normal;
     color: rgb(12, 11, 11);
     text-align: center;
     background-color: #c4c4df;
@@ -60,7 +60,7 @@
     display: inline-block;
     width: 100px;
     padding: 10px 20px;
-    color: #121414
+    color: #121414;
 }
 
 .VivaTimeline dl dd .events {
@@ -110,6 +110,7 @@
 .VivaTimeline dl dd .events .events-body .events-desc {
     text-indent: 2em;
     padding: 0 15px;
+    font-size: 2px;
 }
 
 .VivaTimeline dl dd .events .events-footer {

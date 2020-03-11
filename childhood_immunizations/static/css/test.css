@@ -107,6 +107,7 @@ body {
     min-height: 350px;
     margin: 0px;
     position: relative;
+    background-color: skyblue;
 }
 
 .jumbotron > .overlay {
@@ -347,7 +348,8 @@ li.dropdown {
     position: relative;
     top: 0;
     padding: 20px 0;
-    margin: 0
+    margin: 0;
+    font-size: 20px;
 }
 
 .VivaTimeline dl:before {
@@ -375,7 +377,8 @@ li.dropdown {
     background-color: #c4c4df;
     border-radius: 4px;
     -webkit-border-radius: 4px;
-    -moz-border-radius: 4px
+    -moz-border-radius: 4px;
+    font-size: 20px;
 }
 
 .VivaTimeline dl dd {
@@ -437,9 +440,10 @@ li.dropdown {
     min-height: 30px;
     line-height: 20px;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    text-shadow: 2px 2px black;;
 }
 
 .VivaTimeline dl dd .events .events-body {
@@ -454,7 +458,8 @@ li.dropdown {
 
 .VivaTimeline dl dd .events .events-body .events-desc {
     text-indent: 2em;
-    padding: 0 15px;
+    padding: 0 5px;
+    font-size: 15px;
 }
 
 .VivaTimeline dl dd .events .events-footer {
@@ -515,7 +520,7 @@ li.dropdown {
         left: 90px
     }
     .VivaTimeline dl dt {
-        margin: 0 30px 30px
+        margin: 0 30px 30px;
     }
     .VivaTimeline dl dd .circ {
         left: 90px
