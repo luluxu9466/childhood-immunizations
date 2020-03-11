@@ -46,6 +46,11 @@ input {
     padding: 0px;
     margin: 0rem;
 }
+
+.overlay {
+    fill: rgb(214, 39, 40)
+}
+
 /* IPython Notebook CSS to allow visualization to fit */
 /* I'm open to a better way of accomplishing this goal... */
 .container { width:1350px !important; }

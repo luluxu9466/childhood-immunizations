@@ -350,7 +350,7 @@ body {
  .legend p {
      font-family: 'Arial', sans-serif;
      font-size: 20px;
-     text-align: center;
+     text-align: center;x
      color: rgb(34, 33, 33);
      margin: 2px;
  }
@@ -441,7 +441,7 @@ body {
     height: auto;
 }
 
-.overlay {
+.img-container .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
