@@ -11,14 +11,14 @@ path {
     fill: black;
     stroke: black;
     stroke-width: 0.8;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 
 .slideraxis {
     fill: black;
     stroke: black;
     stroke-width: 0.8;
-    opacity: 1;
+    /* opacity: 1; */
 }
 
 text {
