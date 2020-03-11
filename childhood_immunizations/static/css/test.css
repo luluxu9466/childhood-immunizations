@@ -61,15 +61,15 @@ body {
  }
  
  button {
-     height: 40px; 
-     width: 150px; 
-     display: block; 
-     margin: 0 auto;
+     /* height: 40px;  */
+     /* width: 150px;  */
+     /* display: block; 
+     margin: 0 auto; */
      color: rgb(31, 30, 30) !important;
      font-family: 'Arial', sans-serif;
-     font-size: 18px;
+     font-size: 12px;
      text-align: center;
-     font-weight: bold;
+     /* font-weight: bold; */
  }
 
 

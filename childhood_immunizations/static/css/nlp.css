@@ -10,22 +10,42 @@ path {
 .xaxis .tick.major {
     fill: black;
     stroke: black;
-    stroke-width: 0.1;
+    stroke-width: 0.8;
     opacity: 0.7;
 }
 
 .slideraxis {
     fill: black;
     stroke: black;
-    stroke-width: 0.4;
+    stroke-width: 0.8;
     opacity: 1;
 }
 
 text {
-    font-family: sans-serif;
-    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
+button {
+    color: rgb(31, 30, 30) !important;
+    font-family: 'Arial', serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+label {
+    font-size: 15px;
+    font-family: 'Arial', serif;
+}
+
+input {
+    font-size: 20px;
+}
+
+.container {
+    padding: 0px;
+    margin: 0rem;
+}
 /* IPython Notebook CSS to allow visualization to fit */
 /* I'm open to a better way of accomplishing this goal... */
 .container { width:1350px !important; }

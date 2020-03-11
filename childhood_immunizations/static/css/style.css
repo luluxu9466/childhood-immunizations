@@ -75,13 +75,10 @@ body {
  }
  
  button {
-     height: 40px; 
-     width: 150px; 
-     display: block; 
      margin: 0 auto;
      color: rgb(31, 30, 30) !important;
      font-family: 'Arial', sans-serif;
-     font-size: 18px;
+     font-size: 12px;
      text-align: center;
      font-weight: bold;
  }
@@ -291,6 +288,7 @@ body {
    position: fixed; /* Set the navbar to fixed position */
    top: 0; /* Position the navbar at the top of the page */
    width: 100%; /* Full width */
+   font-family: Arial, Helvetica, sans-serif;
  }
  
  /* Navbar links */
@@ -300,9 +298,14 @@ body {
    text-align: center;
    padding: 14px;
    text-decoration: none;
-   font-family: 'Arial', sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
    font-size: 16px;
    color: red;
+ }
+
+ #navbar .nav-link {
+     font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
  }
  
  #radar {
@@ -548,3 +551,17 @@ li.dropdown {
     display: none;
     color: #343434;
   }
+
+
+@media screen and (max-width: 767px) {
+    .container {
+        margin: 0rem;
+        size: 1vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        margin: 0rem;
+    }
+}
