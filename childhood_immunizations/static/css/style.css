@@ -108,9 +108,9 @@ li {
  /* overlay an opaque dark color so the text will still show up */
  .jumbotron {
      font-family: 'Arial', sans-serif;
-     font-size: 50px;
+     /* font-size: 50px; */
      color: whitesmoke;
-     min-height: 350px;
+     /* min-height: 350px; */
      margin: 0px;
      position: relative;
  }
