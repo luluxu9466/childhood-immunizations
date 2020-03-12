@@ -8,15 +8,15 @@ path {
 }
 
 .xaxis .tick.major {
-    fill: black;
-    stroke: black;
+    fill: rgb(233, 227, 227);
+    stroke: rgb(224, 219, 219);
     stroke-width: 0.8;
     opacity: 0.7;
 }
 
 .slideraxis {
-    fill: black;
-    stroke: black;
+    fill: rgb(241, 237, 237);
+    stroke: rgb(233, 226, 226);
     stroke-width: 0.8;
     opacity: 1;
 }
@@ -27,7 +27,7 @@ text {
 }
 
 button {
-    color: rgb(31, 30, 30) !important;
+    color: rgb(236, 230, 230) !important;
     font-family: 'Arial', serif;
     font-size: 15px;
     text-align: center;
