@@ -1,4 +1,13 @@
-body> style="background-color: skyblue"> </body>
+body></body>
+
+div {
+    background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcoronavirus.1point3acres.com%2Fimages%2Ffeiyan.jpeg);}
+    {background-size: cover;}
+    {background-repeat: no-repeat;
+    
+}
+
+h1 {color:rgb(245, 245, 241)}
 
 .VivaTimeline dl {
     position: relative;
@@ -22,14 +31,14 @@ body> style="background-color: skyblue"> </body>
 .VivaTimeline dl dt {
     position: relative;
     top: 30px;
-    z-index: 200;
+    z-index: 400;
     width: 120px;
     padding: 3px 5px;
     margin: 0 auto 30px;
-    font-weight: 400;
-    color: rgb(12, 11, 11);
+    font-weight: 800;
+    color: rgb(19, 18, 18);
     text-align: center;
-    background-color: #c4c4df;
+    background-color: #dadae0;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px
@@ -62,7 +71,7 @@ body> style="background-color: skyblue"> </body>
     display: inline-block;
     width: 100px;
     padding: 10px 20px;
-    color: #121414
+    color: #eee3e5
 }
 
 .VivaTimeline dl dd .events {
@@ -70,7 +79,7 @@ body> style="background-color: skyblue"> </body>
     width: 47%;
     padding: 10px 0 0;
     margin-top: 31px;
-    background-color: rgb(206, 188, 188);
+    background-color: rgb(211, 205, 205);
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px
@@ -102,7 +111,7 @@ body> style="background-color: skyblue"> </body>
 .VivaTimeline dl dd .events .events-body {
     overflow: hidden;
     zoom: 1;
-    background-color: rgb(226, 218, 218);
+    background-color: rgb(230, 228, 228);
     padding: 10px;    
 }
 .VivaTimeline dl dd .events .events-body .row{
@@ -123,7 +132,7 @@ body> style="background-color: skyblue"> </body>
     padding: 0;
 }
 .VivaTimeline dl dd .events .events-footer ol li {
-    background: #32b487; 
+    background: #aab6b1; 
     border-radius: 5px; 
     margin: 10px; 
     display: inline-block; 
@@ -167,7 +176,8 @@ body> style="background-color: skyblue"> </body>
     bottom: 0;
 }
 
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 500px) {
     .VivaTimeline dl:before {
         left: 90px
     }
@@ -192,7 +202,7 @@ body> style="background-color: skyblue"> </body>
     }
     .VivaTimeline dl dd.pos-left .events:before {
         left: -12px;
-        border-color: transparent rgb(18, 18, 19)
+        border-color: transparent rgb(244, 244, 247)
     }
     .VivaTimeline dl dd.pos-right .time {
         padding: 10px 0;
