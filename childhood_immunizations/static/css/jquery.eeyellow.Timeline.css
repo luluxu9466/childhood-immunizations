@@ -71,7 +71,8 @@ h1 {color:rgb(245, 245, 241)}
     display: inline-block;
     width: 100px;
     padding: 10px 20px;
-    color: #eee3e5
+    color: #eee3e5;
+    font-weight: bold;
 }
 
 .VivaTimeline dl dd .events {
@@ -188,7 +189,8 @@ h1 {color:rgb(245, 245, 241)}
         left: 90px
     }
     .VivaTimeline dl dd .time {
-        left: 20px
+        left: 20px;
+        color: snow;
     }
     .VivaTimeline dl dd.pos-left .time {
         padding: 10px 0;
@@ -199,6 +201,7 @@ h1 {color:rgb(245, 245, 241)}
         float: right;
         width: 73%;
         margin-right: 4%;
+        color: snow;
     }
     .VivaTimeline dl dd.pos-left .events:before {
         left: -12px;

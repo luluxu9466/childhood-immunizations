@@ -11,12 +11,12 @@ font-family: 'Roboto Mono', monospace;
 /* ======================================
  Tag Data
  ====================================== */
- 
 body {
     height: 100%;
     padding: 0;
     margin: 0;
-    background-color: rgba(235, 235, 240, .9);
+    background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcoronavirus.1point3acres.com%2Fimages%2Ffeiyan.jpeg);
+    font-family: 'Arial';
  }
  
  h1 {
@@ -25,12 +25,13 @@ body {
      font-size: 50px;
      color: snow;
      text-shadow: 2px 2px black;
+     text-align: center;
  }
  
  h2 {
      font-family: 'Arial', monospace;
      /* font-size: 30px; */
-     /* text-align: center; */
+     text-align: center;
      font-weight: bold;
      color: snow;
      text-shadow: 2px 2px black;
@@ -39,7 +40,6 @@ body {
  h3 {
      font-family: 'Arial', sans-serif;
      font-size: 20px;
-     text-align: center;
      color: snow;
      line-height: 1.75em;
      text-shadow: 2px 2px black;
@@ -83,6 +83,14 @@ body {
      font-weight: bold;
  }
  
+li {
+    text-align: center; 
+    color:  rgb(53, 42, 42);
+    font-size: 15px;
+    padding: 5px;
+    list-style-position: inside;
+}
+
  /* ======================================
   Class Data
   ====================================== */
@@ -175,14 +183,6 @@ body {
      background-color: whitesmoke;
  }
  
- /* .footer {
-     background-color:rgb(8, 9, 58);
-     color:whitesmoke;
-     font-family: 'Arial', sans-serif;
-     font-size: 16px;
-     text-align: center;
-     padding: 20px;
- } */
  
  .form-group {
      background-color: rgba(255, 255, 255, .5);
