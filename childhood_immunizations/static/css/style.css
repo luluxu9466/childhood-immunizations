@@ -92,9 +92,14 @@ li {
     list-style-position: inside;
 }
 
- /* ======================================
-  Class Data
-  ====================================== */
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
  .button {
      font-family: 'Arial', sans-serif !important;
      font-size: 16px;
@@ -257,6 +262,10 @@ li {
 
  
  /* Style the navbar */
+.navbar {
+    background-color: rgba(8, 10, 94, 0.5);
+}
+
  #navbar {
    background-color: blue;
    border-bottom: 1px;
