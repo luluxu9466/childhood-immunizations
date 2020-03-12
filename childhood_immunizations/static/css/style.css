@@ -15,7 +15,8 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcoronavirus.1point3acres.com%2Fimages%2Ffeiyan.jpeg);
+    background-image: url("https://cdn.pixabay.com/photo/2020/03/04/15/36/corona-4901878_1280.jpg");
+    background-size: 100%;
     font-family: 'Arial';
  }
  
