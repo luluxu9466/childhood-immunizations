@@ -541,11 +541,29 @@ li.dropdown {
     .container {
         margin: 0rem;
         size: 1vw;
+        border-radius: 5px;
     }
+
+    .tableauPlaceholder {
+        border-radius: 5px;
+        margin: 0;
+        position: relative;
+        width: 80%;
+        height: 80%;
+     }
 }
 
 @media screen and (max-width: 500px) {
     .container {
         margin: 0rem;
+        border-radius: 5px;
     }
+
+    .tableauPlaceholder {
+        border-radius: 5px;
+        margin: 0;
+        position: relative;
+        width: 80%;
+        height: 80%;
+     }
 }
