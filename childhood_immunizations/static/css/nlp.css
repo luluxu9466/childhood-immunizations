@@ -27,7 +27,7 @@ text {
 }
 
 button {
-    color: black !important;
+    color: rgb(236, 230, 230) !important;
     font-family: 'Arial', serif;
     font-size: 15px;
     text-align: center;
@@ -49,10 +49,6 @@ input {
 
 .overlay {
     fill: rgb(214, 39, 40)
-}
-
-.container-fluid{
-    width: 95%;
 }
 
 /* IPython Notebook CSS to allow visualization to fit */
