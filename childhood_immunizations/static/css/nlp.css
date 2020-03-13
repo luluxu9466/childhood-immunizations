@@ -3,56 +3,56 @@
 /* MIT Licence */
 
 path {
-  fill: none;
-  stroke: none;
-}
-
-.xaxis .tick.major {
-    fill: rgb(233, 227, 227);
-    stroke: rgb(224, 219, 219);
-    stroke-width: 0.8;
-    /* opacity: 0.7; */
-}
-
-.slideraxis {
-    fill: rgb(241, 237, 237);
-    stroke: rgb(233, 226, 226);
-    stroke-width: 0.8;
-    /* opacity: 1; */
-}
-
-text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-}
-
-button {
-    color: rgb(236, 230, 230) !important;
-    font-family: 'Arial', serif;
-    font-size: 15px;
-    text-align: center;
-}
-
-label {
-    font-size: 15px;
-    font-family: 'Arial', serif;
-}
-
-input {
-    font-size: 20px;
-}
-
-.container {
-    padding: 0px;
-    margin: 0rem;
-}
-
-.overlay {
-    fill: rgb(214, 39, 40)
-}
-
-/* IPython Notebook CSS to allow visualization to fit */
-/* I'm open to a better way of accomplishing this goal... */
-.container { width:1350px !important; }
-/* This is for nbviewer's benefit since the above wasn't enough... */
-.output_area { width:1450px !important; }
+    fill: none;
+    stroke: none;
+  }
+  
+  .xaxis .tick.major {
+      fill: rgb(233, 227, 227);
+      stroke: rgb(224, 219, 219);
+      stroke-width: 0.8;
+      /* opacity: 0.7; */
+  }
+  
+  .slideraxis {
+      fill: rgb(241, 237, 237);
+      stroke: rgb(233, 226, 226);
+      stroke-width: 0.8;
+      /* opacity: 1; */
+  }
+  
+  text {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+  }
+  
+  button {
+      color: black !important;
+      font-family: 'Arial', serif;
+      font-size: 15px;
+      text-align: center;
+  }
+  
+  label {
+      font-size: 15px;
+      font-family: 'Arial', serif;
+  }
+  
+  input {
+      font-size: 20px;
+  }
+  
+  .container {
+      padding: 0px;
+      margin: 0rem;
+  }
+  
+  .overlay {
+      fill: rgb(214, 39, 40)
+  }
+  
+  /* IPython Notebook CSS to allow visualization to fit */
+  /* I'm open to a better way of accomplishing this goal... */
+  .container { width:1350px !important; }
+  /* This is for nbviewer's benefit since the above wasn't enough... */
+  .output_area { width:1450px !important; }
