@@ -120,7 +120,7 @@ li {
      color: snow;
      text-shadow: 2px 2px black;
      text-align: center;
-     margin: 20px;
+     margin: auto;
      position: relative;
  }
  
@@ -226,13 +226,14 @@ li {
     width: 90vw;
     border-radius: 5px;
     padding-bottom: 30px;
-    margin:25px; 
+    margin: auto; 
     /* background-color: rgb(239, 237, 237); */
  }
 
  .tableauPlaceholder {
-     width: 65%;
-     height: 60vw;
+     /* width: 65%; */
+     /* height: 60vw; */
+     width: 90vw;
      border-radius: 5px;
      padding-bottom: 30px;
  }
