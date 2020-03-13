@@ -211,8 +211,12 @@ li {
  }
 
  .container-fluid{
-     width: 90%;
+     width: 90vw;
      border-radius: 10px;
+     padding-bottom: 20px;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
  }
  
  /* ======================================
