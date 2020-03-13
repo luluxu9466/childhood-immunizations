@@ -95,6 +95,7 @@ li {
     color: black;
     padding: 10px;
     list-style-type: square;
+    text-shadow: transparent;
 }
 
  .button {
