@@ -11,13 +11,12 @@ font-family: 'Roboto Mono', monospace;
 /* ======================================
  Tag Data
  ====================================== */
+ 
 body {
     height: 100%;
     padding: 0;
     margin: 0;
-    background-image: url("https://cdn.pixabay.com/photo/2020/03/04/15/36/corona-4901878_1280.jpg");
-    background-size: 100%;
-    font-family: 'Arial';
+    background-color: rgba(235, 235, 240, .9);
  }
  
  h1 {
@@ -26,13 +25,12 @@ body {
      font-size: 50px;
      color: snow;
      text-shadow: 2px 2px black;
-     text-align: center;
  }
  
  h2 {
      font-family: 'Arial', monospace;
      /* font-size: 30px; */
-     text-align: center;
+     /* text-align: center; */
      font-weight: bold;
      color: snow;
      text-shadow: 2px 2px black;
@@ -41,6 +39,7 @@ body {
  h3 {
      font-family: 'Arial', sans-serif;
      font-size: 20px;
+     text-align: center;
      color: snow;
      line-height: 1.75em;
      text-shadow: 2px 2px black;
@@ -84,22 +83,9 @@ body {
      font-weight: bold;
  }
  
-li {
-    text-align: center; 
-    color:  rgb(53, 42, 42);
-    font-size: 15px;
-    padding: 5px;
-    list-style-position: inside;
-}
-
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
-
+ /* ======================================
+  Class Data
+  ====================================== */
  .button {
      font-family: 'Arial', sans-serif !important;
      font-size: 16px;
@@ -113,9 +99,9 @@ li {
  /* overlay an opaque dark color so the text will still show up */
  .jumbotron {
      font-family: 'Arial', sans-serif;
-     /* font-size: 50px; */
+     font-size: 50px;
      color: whitesmoke;
-     /* min-height: 350px; */
+     min-height: 350px;
      margin: 0px;
      position: relative;
  }
@@ -189,6 +175,14 @@ li {
      background-color: whitesmoke;
  }
  
+ /* .footer {
+     background-color:rgb(8, 9, 58);
+     color:whitesmoke;
+     font-family: 'Arial', sans-serif;
+     font-size: 16px;
+     text-align: center;
+     padding: 20px;
+ } */
  
  .form-group {
      background-color: rgba(255, 255, 255, .5);
@@ -208,15 +202,6 @@ li {
  button.bg-light:hover,
  button.bg-light:focus {
  background-color: #dae0e5 !important;
- }
-
- .container-fluid{
-     width: 90vw;
-     border-radius: 10px;
-     padding-bottom: 20px;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
  }
  
  /* ======================================
@@ -271,10 +256,6 @@ li {
 
  
  /* Style the navbar */
-.navbar {
-    background-color: #AD211A;
-}
-
  #navbar {
    background-color: blue;
    border-bottom: 1px;
@@ -452,14 +433,12 @@ li {
 .img-container {
     position: relative;
     width: 33%;
-    border-radius: 10px;
 }
 
 .image {
     display: block;
     width: 100%;
     height: auto;
-    border-radius: 10px;
 }
 
 .img-container .overlay {
@@ -473,12 +452,10 @@ li {
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(235, 235, 240, .9);
-    border-radius: 10px;
 }
 
 .img-container:hover .overlay {
     opacity: 1;
-    border-radius: 10px;
 }
 
 .img-text {
@@ -550,23 +527,16 @@ li.dropdown {
     color: #343434;
   }
 
-.tableauPlaceholder {
-    border-radius: 10px;
-    position: relative;
-}
-
 
 @media screen and (max-width: 767px) {
     .container {
         margin: 0rem;
         size: 1vw;
-        border-radius: 10px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .container {
         margin: 0rem;
-        border-radius: 10px;
     }
 }
