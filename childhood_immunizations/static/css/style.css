@@ -231,63 +231,18 @@ li {
  }
 
  .tableauPlaceholder {
-     /* width: 65%; */
-     /* height: 60vw; */
      width: 90vw;
+     /* height: 60vw; */
+     /* width: 50%; */
      border-radius: 5px;
      padding-bottom: 30px;
+     margin-left: 0;
  }
  
  /* ======================================
  Styling for the navigate section
  ====================================== */
- #services {
-     background-color:  rgb(235, 45, 31);
-     padding-top: 50px;
-     padding-bottom: 50px;
-     color: whitesmoke;
- }
- 
- .service-heading {
-   margin: 15px 0;
-   text-transform: none;
-   color: whitesmoke;
- }
- 
- .fa-stack {
-     display: inline-block;
-     height: 2em;
-     line-height: 2em;
-     position: relative;
-     vertical-align: middle;
-     width: 2.5em; 
- }
-   
- .fa-stack-1x,
- .fa-stack-2x {
-     left: 0;
-     position: absolute;
-     text-align: center;
-     width: 100%; 
- }
- 
- .fa-stack-1x {
-     line-height: inherit; 
- }
- 
- .fa-stack-2x {
-     font-size: 2em; 
- }
- 
- .fa-inverse {
-     color: #fff; 
- }
- 
- .text-muted {
-     color: whitesmoke;
- }
- 
- /* Style the navbar */
+
  #navbar {
    background-color: #AD221B;
    border-bottom: 1px;
