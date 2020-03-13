@@ -229,8 +229,8 @@ li {
     border-radius: 5px;
     margin: 0;
     position: relative;
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
  }
  
  /* ======================================
@@ -548,8 +548,8 @@ li.dropdown {
         border-radius: 5px;
         margin: 0;
         position: relative;
-        width: 80%;
-        height: 80%;
+        width: 70%;
+        height: 70%;
      }
 }
 
@@ -563,7 +563,7 @@ li.dropdown {
         border-radius: 5px;
         margin: 0;
         position: relative;
-        width: 80%;
-        height: 80%;
+        width: 70%;
+        height: 70%;
      }
 }
