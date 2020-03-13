@@ -51,6 +51,10 @@ input {
     fill: rgb(214, 39, 40)
 }
 
+.container-fluid{
+    width: 95%;
+}
+
 /* IPython Notebook CSS to allow visualization to fit */
 /* I'm open to a better way of accomplishing this goal... */
 .container { width:1350px !important; }

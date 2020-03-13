@@ -209,6 +209,11 @@ li {
  button.bg-light:focus {
  background-color: #dae0e5 !important;
  }
+
+ .container-fluid{
+     width: 90%;
+     border-radius: 10px;
+ }
  
  /* ======================================
  Styling for the navigate section
@@ -443,12 +448,14 @@ li {
 .img-container {
     position: relative;
     width: 33%;
+    border-radius: 10px;
 }
 
 .image {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .img-container .overlay {
@@ -462,10 +469,12 @@ li {
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(235, 235, 240, .9);
+    border-radius: 10px;
 }
 
 .img-container:hover .overlay {
     opacity: 1;
+    border-radius: 10px;
 }
 
 .img-text {
@@ -537,16 +546,23 @@ li.dropdown {
     color: #343434;
   }
 
+.tableauPlaceholder {
+    border-radius: 10px;
+    position: relative;
+}
+
 
 @media screen and (max-width: 767px) {
     .container {
         margin: 0rem;
         size: 1vw;
+        border-radius: 10px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .container {
         margin: 0rem;
+        border-radius: 10px;
     }
 }
