@@ -482,7 +482,7 @@ li a, .dropbtn {
     padding: 14px 16px;
     text-decoration: none;
     list-style-position: inside;
-    text-shadow: transparent;
+    text-shadow: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
