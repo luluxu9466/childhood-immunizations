@@ -262,10 +262,6 @@ nav .navbar {
     background-color: #AD221B;
 }
 
-.dropdown-item {
-    color: black;
-}
-
  /* Navbar links */
  #navbar a {
    float: left;
@@ -290,28 +286,6 @@ nav .navbar {
      border: .5px solid black;
      outline-style: solid;
      outline-color: rgba(148, 147, 147,0);
- }
- 
- #barGraph {
-     background-color: rgba(255, 255, 255, .5);
-     padding: 30px;
-     margin:10px;
-     border: .5px solid black;
-     outline-style: solid;
-     outline-color: rgba(148, 147, 147,0);
- }
- 
- #heatmap {
-     height: 650px;
-     border: .5px solid black;
-     outline-style: solid;
-     outline-color: rgba(148, 147, 147,0);
- }
- 
- 
- #income-gauge {
-     font-size: 0.8em !important;
-     color: black
  }
  
  .legend {
