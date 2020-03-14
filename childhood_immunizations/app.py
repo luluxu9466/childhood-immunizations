@@ -73,4 +73,3 @@ def vaccines():
         Vaccines.Pertussis_cases_2018, Vaccines.Religious_Exemption, Vaccines.Philosophical_Exemption)\
             .all()
     print(jsonify(cases))
-    # return jsonify(cases)

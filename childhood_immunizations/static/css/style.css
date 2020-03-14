@@ -253,6 +253,10 @@ nav .navbar {
     padding-bottom:5px !important;
 }
 
+nav #dropdownmenu {
+    color: black;
+}
+
 .fixed-top {
     position: fixed;
     top: 0;
@@ -277,15 +281,6 @@ nav .navbar {
  #navbar .nav-link {
      font-size: 16px;
      font-family: Arial, Helvetica, sans-serif;
- }
- 
- #radar {
-     background-color: rgba(255, 255, 255, .5);
-     padding: 30px;
-     margin:10px;
-     border: .5px solid black;
-     outline-style: solid;
-     outline-color: rgba(148, 147, 147,0);
  }
  
  .legend {
