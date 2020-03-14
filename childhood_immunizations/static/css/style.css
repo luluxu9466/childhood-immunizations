@@ -262,6 +262,10 @@ nav .navbar {
     background-color: #AD221B;
 }
 
+nav .dropdown-item {
+    color: black;
+}
+
  /* Navbar links */
  #navbar a {
    float: left;
